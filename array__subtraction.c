@@ -41,7 +41,7 @@ int main () {
    printf("SUBTRACTION OF TWO MATRIXS : \n");
    for(i=0;i<n ; i++){
       for(j=0;j<n;j++){
-        sub = a[i][j]+b[i][j];
+        sub = a[i][j]-b[i][j];
         printf("%d  ",sub);
       }
       printf("\n");
