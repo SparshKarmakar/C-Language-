@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <string.h>
 
 int main () {
    
    // ARRAY SUM
-   int i,j ,n,sum ;
+   int i,j ,n,sub ;
    printf("ENTER n FOR n*n MATRIXS : ");
    scanf("%d",&n);
    int a[n][n];
@@ -39,11 +38,11 @@ int main () {
       printf("\n");
    }
 
-   printf("SUM OF TWO MATRIXS : \n");
+   printf("SUBTRACTION OF TWO MATRIXS : \n");
    for(i=0;i<n ; i++){
       for(j=0;j<n;j++){
-        sum = a[i][j]+b[i][j];
-        printf("%d  ",sum);
+        sub = a[i][j]+b[i][j];
+        printf("%d  ",sub);
       }
       printf("\n");
    }
