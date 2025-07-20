@@ -2,7 +2,7 @@
 
 int main () {
    
-   // ARRAY SUM
+   // ARRAY SUB
    int i,j ,n,sub ;
    printf("ENTER n FOR n*n MATRIXS : ");
    scanf("%d",&n);
